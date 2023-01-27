@@ -1,0 +1,14 @@
+
+.slideContainer
+{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.LogoStyle {
+    padding: 10px;
+}
+.LogoStyle img{
+    width: 165px;
+    /* margin-right: 50px; */
+}

@@ -1,0 +1,76 @@
+.subscribe{
+width: 780px;
+height: 106px;
+background-color: #464646;
+border-radius: 8px;
+box-shadow: 1px 1px 10px black;
+}
+.subLeft,.subRight{
+    width: 40%;
+}
+.subLeft{
+    line-height: 5px;
+}
+.subscribe h3{
+    font-size: 23px;
+    color: white;
+}
+.subscribe p{
+    color: #E9D7C8;
+    font-size: 14px;
+}
+.subRight input,.subRight input:focus{
+    background-color: #464646;
+    border: 1px solid white;
+    color: #E9D7C8;
+    outline: none;
+    
+}
+.subRight input::placeholder{
+    color: #E9D7C8;
+}
+.subRight{
+    position: relative;
+}
+.subRight img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    font-size: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 391px) {
+    .subscribe{
+        width: 100%;
+        height: 150px;
+        display: block;
+        position: relative;
+    }
+    .subscribe .subLeft{
+       width: 90%;
+       text-align: center;
+       position: absolute;
+       top: 43%;
+       left: 50%;
+       transform: translate(-50%,-75%);
+    }
+    .subscribe .subRight{
+        position: absolute;
+        top: 58%;
+       left: 50%;
+       transform: translateX(-50%);
+        width: 85%;
+    }
+    .fooretTitlebox {
+         width: 95%;
+         border-style: none;
+    }
+    .fooretTitlebox h4{
+         font-size: 12px;
+         top: 60%;
+    }
+    
+}

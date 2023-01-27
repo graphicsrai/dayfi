@@ -1,0 +1,242 @@
+
+
+.hero{
+    height: 100vh;
+    font-family: DegularBold;
+}
+.heroimg{
+    width: 100%;
+    height: 100vh;
+    z-index: -100;
+}
+.homeNav{
+    position: absolute;
+    top: 0;
+}
+.topbtn{
+    background-color: #F8E4D4;
+}
+.navLinks {
+    display: flex;
+    justify-content: space-evenly;
+}
+.navLinks .navLink{
+    text-decoration: none;
+    color: #E9D7C8;
+}
+.navLinks .navLink:hover{
+    text-decoration: underline;
+}
+
+.homeNav .logo{
+    width: 158px !important;
+}
+/* .logo img{
+    width: 17px;
+    height: 17px;
+} */
+.topbtn{
+    width: 27px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    outline: 3px solid #675F59;
+    cursor: pointer;
+}
+/* .topbtn:hover{
+background-color: black;
+}
+.topbtn img:hover{
+    filter:invert(100%)
+} */
+
+/*hero content */
+.heroTitle{
+    width: 48%;
+    position: absolute;
+    top: 31%;
+    color: #fff;
+    font-weight: 100;
+}
+.heroTitle h1{
+    font-weight: 600;
+    font-size: 86px;
+    /* line-height: 71.98px; */
+    letter-spacing: -2px;
+}
+.heroTitle h1 .subTitle{
+    font-size: 65px;
+}
+.heroTitle button{
+   
+    background-color:  #E9D7C8;
+    color: #1b1b1ba0;
+    width: 242px;
+}
+.heroTitle button:hover{
+    background-color: #1B1B1B;
+    color:  #E9D7C8;
+}
+.heroTitle p{
+    margin-top: 30px;
+    font-size: 30px;
+    color:  #E9D7C8;
+    font-family: DegularMedium;
+    font-weight: 300;
+}
+.partners{
+    background-color: #E9D7C8 ;
+    height: 465px;
+}
+.partners .inner{
+    padding-top: 110px;
+
+}
+.partners .inner h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+footer{
+    position: relative;
+    height: 719px;
+    background-color: #1B1B1B;
+}
+.subscribeBox{
+    width: 780px;
+    height: 106px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+   
+
+}
+.fooretTitlebox{
+    height: 40%;
+    width: 70%;
+    border-bottom: 1px solid #E9D7C8 ;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.footerTitle{
+    position: absolute;
+    top :70%;
+    left: 50%;
+    transform: translate(-50%,-25%);
+    font-size: 19px;
+    font-weight: 418;
+}
+.links{
+    color: white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.links link{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.socilLinks{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    
+}
+.socialBox{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:#E9D7C8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socilLinks i{
+    color:#1B1B1B;
+    font-size: 20px;
+}
+
+
+
+
+@media only screen and (min-width: 391px)
+{
+    .lastChild {
+        margin-top: 0px !important;
+    }
+} 
+@media only screen and (max-width: 391px) 
+{
+    .hero{
+        width: 100hv;
+    }
+    .heroimg{
+        width: 100%;
+    }
+    .navLink{
+        visibility: hidden;
+    }
+    .topbtn{
+        width: 23px !important;
+        height: 23px !important;
+        margin-left: -60px;
+    }
+    .homeNav .logo{
+        width: 120px !important;
+    }
+    .heroTitle {
+        width: 85%;
+        top: 25%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .heroTitle h1 .subTitle{
+        font-size: 32px;
+    }
+    .heroTitle h1{
+        font-size: 45px;
+        line-height: 40px;
+    }
+    .heroTitle p{
+        line-height: 20px;
+        font-size: 20px;
+    }
+    .heroTitle button{
+        width: 90%;
+    }
+    .partnersLogo{
+        margin-left: 22%;
+    }
+    .subscribeBox{
+        width: 90%;
+        position: absolute;
+        left: 53%;
+        transform: translate(-50%,-50%);
+    }
+    .socilLinks{
+        top: 45%;
+    }
+    .links{
+        display: grid;
+        grid-template-columns: 120px 120px;
+        column-gap: 20px;
+        row-gap: 10px;
+        top: 70%;
+        left: 43%;
+    }
+    .lastChild {
+        margin-top: -20px !important;
+    }
+}
