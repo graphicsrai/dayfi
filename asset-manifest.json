@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/dayfi/static/css/main.9ffa4d9c.css",
+    "main.js": "/dayfi/static/js/main.924de396.js",
+    "static/media/HeroCreamgif.gif": "/dayfi/static/media/HeroCreamgif.a84c26fc5553c6949be2.gif",
+    "static/media/HeroBlackGif.gif": "/dayfi/static/media/HeroBlackGif.0529ca48cd72e28cb091.gif",
+    "static/media/mobileHero.gif": "/dayfi/static/media/mobileHero.108c6930427d3fa041f1.gif",
+    "static/media/mobileLight.gif": "/dayfi/static/media/mobileLight.c431ac9797f350a8cac6.gif",
+    "static/media/DegularBold.otf": "/dayfi/static/media/DegularBold.0ee1948765ff20a5e586.otf",
+    "static/media/DegularLight.otf": "/dayfi/static/media/DegularLight.08492aff3c0b32c5be99.otf",
+    "static/media/Degular.otf": "/dayfi/static/media/Degular.b18f265236f803b0dc59.otf",
+    "static/media/DegularMedium.otf": "/dayfi/static/media/DegularMedium.2829257a87adb4761430.otf",
+    "static/media/polygonStudios.png": "/dayfi/static/media/polygonStudios.2faa4b111f7e87485a73.png",
+    "static/media/RegrobGroup.png": "/dayfi/static/media/RegrobGroup.2a4dc3cb7a9738e01f1d.png",
+    "static/media/SupreaOracles.png": "/dayfi/static/media/SupreaOracles.e4485c1772553f32a222.png",
+    "static/media/oneverse.png": "/dayfi/static/media/oneverse.ebe5c1b7667fc84d52fc.png",
+    "static/media/mooncase.png": "/dayfi/static/media/mooncase.3b2894074548e38dad81.png",
+    "static/media/LogoChampagne.png": "/dayfi/static/media/LogoChampagne.de6eb70c2f926894c439.png",
+    "static/media/polygon.png": "/dayfi/static/media/polygon.1e25dffd08be7325e9da.png",
+    "static/media/breederDao.png": "/dayfi/static/media/breederDao.73036b290aec15f3a8fe.png",
+    "static/media/slick.svg": "/dayfi/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/dayfi/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/dayfi/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/dayfi/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/dayfi/index.html",
+    "static/media/Arrow.svg": "/dayfi/static/media/Arrow.9a8c50a5d08a32b88c9c67191c80f1b7.svg",
+    "main.9ffa4d9c.css.map": "/dayfi/static/css/main.9ffa4d9c.css.map",
+    "main.924de396.js.map": "/dayfi/static/js/main.924de396.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ffa4d9c.css",
+    "static/js/main.924de396.js"
+  ]
+}
